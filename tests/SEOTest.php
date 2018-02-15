@@ -17,6 +17,8 @@ class SEOTest extends TestCase
     private $currentDomDocument = null;
 
     /**
+     * SEO-info data provider
+     *
      * @return array
      * @throws \Exceptions\CSVFileNotFoundException
      */
@@ -31,7 +33,6 @@ class SEOTest extends TestCase
      * @param $url
      * @param $title
      * @param $description
-     * @throws \Exceptions\DomParserException
      */
     public function testTitle($url, $title, $description)
     {
@@ -45,7 +46,6 @@ class SEOTest extends TestCase
      * @param $url
      * @param $title
      * @param $description
-     * @throws \Exceptions\DomParserException
      */
     public function testDescription($url, $title, $description)
     {
