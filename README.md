@@ -17,7 +17,7 @@ export cookies="seo=test;"
 vendor/phpunit/phpunit/phpunit tests/SEOTest.php
 ```
 
-Скрипт start_parallel.sh, запуск в параллели, по умолчанию количество процессов равно количеству свободных процессоров:
+Скрипт start_parallel.sh, запуск в параллели, по умолчанию количество потоков равно количеству свободных процессоров:
 
 ```sh
 #!/bin/sh
