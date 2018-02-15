@@ -1,0 +1,21 @@
+{
+  "name": "test-task-1",
+  "description": "Test task for interview",
+  "authors": [
+    {
+      "name": "Vadim Trubanov",
+      "email": "vonaburt@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "7.0.1",
+    "liuggio/fastest": "~1.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Exceptions": "src/",
+      "Helpers\\Csv": "src/",
+      "Helpers\\Dom": "src/"
+    }
+  }
+}
